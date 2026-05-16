@@ -33,3 +33,17 @@ span{
 p{
     line-height: 40px;
 }
+.box{
+    height: 500px;
+    /* background-color: peachpuff; */
+    /* background-color: gainsboro; */
+    /* background-image: url(./download.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    background: linear-gradient(#9b2222a3, #c425ffcf);
+    background-position: fixed;
+    /* border: 10px solid rebeccapurple; */
+    box-shadow: 2px 2px 2px 1px rgb(208, 138, 138);
+
+}
