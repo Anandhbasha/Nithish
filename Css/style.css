@@ -26,6 +26,7 @@
     text-transform: capitalize;/*uppercase,lowercase*/
     text-shadow: 5px 15px 2px red;
     letter-spacing: 1em;
+    margin-top: 100px;
 }
 span{
     text-align: center;
@@ -46,4 +47,99 @@ p{
     /* border: 10px solid rebeccapurple; */
     box-shadow: 2px 2px 2px 1px rgb(208, 138, 138);
 
+}
+/* .backs:hover{
+    color: red;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+ */
+
+/* .backs::before{
+    content: "This is after";
+    color: red;
+} */
+/* .backs::first-letter{
+    color: pink;
+} */
+
+/* .backs{
+    opacity: .8;
+} */
+/* .element{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.element:nth-child(3){
+    background-color: blue;    
+}
+
+*{
+    background-color: blueviolet;
+    color: white;
+}
+.backs::selection{
+    background-color: green;
+} */
+
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+/* static
+fixed
+sticky
+realtive
+absolute */
+
+/* #head1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+} */
+
+.mainBox{
+    margin-top: 12vh;
+}
+
+.text{
+    position: sticky;
+    top: 5vh;
+    z-index: 1;
+}
+p{
+    position: sticky;
+}
+.outer{
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative;
+    left: 100px;
+}
+.inner{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.inner1{
+    top: 10px;
+    left: 20px;
+}
+.inner2{
+    top: 120px;
+    left: 180px;
+}
+.inner3{
+    top: 80px;
+    left: 80px;
 }
