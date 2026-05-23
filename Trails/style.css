@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#maincontainer{
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    align-items: center;
+}
+/* .box{
+    height: 300px; 
+    width: 300px;
+    background-color: red;
+    color: white;
+} */
+.box1{
+    /* flex-shrink: 0; */
+    /* flex-grow: 2; */
+    /* flex-basis: 600px; */
+}
+
+.navLinks{
+    width: 100%;
+    background-color: paleturquoise;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+
+.mainContent{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftMain,.rightMain{
+    width: 45%;
+}
+
+.btn,.btnHire{
+    font-size: 1.2em;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(80, 171, 31);
+}
+.leftMain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+
+}
+.ImageSection{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(183, 110, 110);
+    border-radius: 50%;
+}
+.btn{
+    background-color: steelblue;
+    transition: 4s;
+}
+.btn:hover{
+    background-color: white;
+    border: 1.5px solid steelblue;
+    color: steelblue;
+    /* transform: scale(1.2); */
+    transform: rotate(360deg);
+    /* transform: translate(25px,0px); */
+    transition: 4s;
+}
+
+.menuLine{
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 20px;
+    border-radius: 5px;
+    display: none;
+}
+@media (max-width:720px){
+    .mainContent{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:450px) {
+    .line{
+        display: block;
+    }
+    .navLinks >a{
+        display: none;
+    }
+}
