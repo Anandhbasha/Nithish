@@ -1,0 +1,98 @@
+.gridContainer{
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns: 300px 500px 400px; */
+    /* grid-template-columns: repeat(3,300px); */
+    /* grid-template-columns: repeat(3,minmax(150px,1fr)); */
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    /* grid-template-rows: 400px 400px 400px 400px 400px; */
+    grid-template-rows: repeat(5,300px);
+}
+.content{
+    background-color: red;
+    color: white;
+    display: grid;
+    align-items: center;
+    padding: 15px;
+}
+.content1{
+    /* grid-column: span 3;
+    grid-row: span 2; */
+    grid-column: 2/4;
+}
+
+
+/* .containerGrid{
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-areas: 
+    "h h h"
+    "s c1 c1"
+    "s c2 c3"
+    "f f f";
+} */
+.header,.SideBar,.content1,.content2,.content3,.footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+/* .header{
+    grid-area: h;    
+    background-color: yellow;
+    color: white;
+}
+
+.SideBar{
+    grid-area: s;
+    background-color: orangered;
+    color: white;
+}
+.content1{
+    grid-area: c1;
+    background-color: red;
+    color: white;
+}
+.content2{
+    grid-area: c2;
+    background-color: rebeccapurple;
+    color: white;
+}
+.content3{
+    grid-area: c3;
+    background-color: rebeccapurple;
+    color: white;
+
+}
+.footer{
+    grid-area: f;
+    background-color: yellow;
+    color: white;
+} */
+
+.containerGrid{
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.header,.footer{
+    grid-column: span 3;
+    background-color: yellow;
+    color: white;
+}
+.SideBar{
+    grid-row: span 2;
+    background-color: orangered;
+    color: white;
+}
+.content1{
+    grid-column: span 2;
+    background-color: red;
+    color: white;
+}
+.content2,.content3{
+    background-color: purple;
+    color: white;
+}
