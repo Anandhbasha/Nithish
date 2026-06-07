@@ -129,8 +129,117 @@ console.log(a);
 
 //ternary
 
-let temp = 32
-// condition?success:failure
+// let temp = 32
+// // condition?success:failure
 
-console.log(temp>=32?"switch on the AC":"Switch on the fan");
+// console.log(temp>=32?"switch on the AC":"Switch on the fan");
 
+// functions
+// function function name(params) {
+//     // block
+// }
+
+// function name()
+
+// function greet(names,city){
+//     console.log("Hello Welcome",names,city);    
+// }
+// greet("Arun","cbe")
+// greet("bala")
+// greet("Vijay")
+// greet("Vetri")
+// greet("Raja")
+// greet("Ravi")
+
+// function avg(marks){
+//     return marks/5
+// }
+
+// function add(t,e,m,s,ss){
+//     let total = 0
+//    total = t+e+m+s+ss
+//    return avg(total) 
+       
+// }
+
+// console.log(add(60,70,77,33,88))
+// console.log(add(60,70,77,66,88));
+// console.log(add(60,70,77,79,88));
+// console.log(add(60,70,77,53,88));
+// console.log(add(60,70,77,97,88));
+
+// arrow
+// const define =(a)=> console.log("arrow function is working",a)
+// // sep , " "
+// define(10)
+
+// // ananoums
+// const ana = function(){
+
+// }
+// // IIFI
+// const IFfi  = (function(){
+
+// })
+
+// condtional Statement
+// if
+// if(condition){
+//     // block
+// }
+
+// let key = true
+
+// if(!key){
+//     console.log("Bike is On off");    
+// }
+// let key = true
+
+// if(!key){
+//     console.log("Bike is off");    
+// }else{
+//     console.log("Bike is oN");
+    
+// }
+
+let age = 20
+
+// if(age>19){
+//     console.log("Adult");
+    
+// }
+// else if(age<13){
+//     console.log("Kids");
+    
+// }
+// else{
+//     console.log("Teenager");
+    
+// }
+
+// switch
+let today = "Monday"
+
+switch(today){
+    case "Monday":
+        console.log("Today is Monday");
+        break
+    case "Tuesday":
+        console.log("Today is Tuesday");
+        break
+    case "Wednesday":
+        console.log("Today is Wednesday");
+        break
+    case "Thursday":
+        console.log("Today is Thursday");
+        break
+    case "Friday":
+        console.log("Today is Friday");
+        break
+    case "Saturday":
+        console.log("Today is Saturday");
+        break
+    default:
+        console.log("Today is Sunday");
+        
+}
